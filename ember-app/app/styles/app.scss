@@ -1,0 +1,16 @@
+@import "normalize";
+$fa-font-path: "/assets/fonts" !default;
+@import "font-awesome";
+@import "bourbon";
+@import "base/base";
+@import "components/components";
+@import "header";
+
+body {
+  background-color: $secondary-background-color;
+  -webkit-font-smoothing: antialiased;
+  padding-top: $base-spacing * 2.5;
+  main {
+    margin: 0 $base-spacing;
+  }
+}

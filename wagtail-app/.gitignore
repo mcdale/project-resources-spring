@@ -1,0 +1,5 @@
+/app/settings/local.py
+/static
+/media
+/node_modules
+*.pyc

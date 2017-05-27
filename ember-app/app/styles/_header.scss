@@ -1,0 +1,82 @@
+@import "bourbon";
+@import "base/variables";
+
+header {
+  background-color: $base-background-color;
+  border-bottom: thin solid $base-border-color;
+  border-radius: 0;
+  box-shadow: 0px 2px 2px transparentize(darken($base-border-color,50%), 0.5);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  nav {
+    display:flex;
+    flex-direction: row;
+    margin: $base-spacing/4;
+    a {
+      color: transparentize($base-font-color,0.2);
+      text-decoration: none;
+      /* remember to define focus styles! */
+      &:focus {
+        outline: 0;
+      }
+      &:hover, &:active {
+        color: darken($base-font-color, 25%);
+      }
+      &.button {
+        background-color: $base-font-color;
+        color: invert($base-font-color);
+        padding: $base-spacing/2;
+        &:focus {
+          outline: 0;
+        }
+        &:hover, &:active {
+          background-color: $base-font-color;
+          color: lighten(invert($base-font-color), 25%);
+        }
+      }
+      &.brand {
+        
+        cursor: default;
+        flex-grow: 2;
+        font-weight: lighter;
+        small {
+          color: invert($base-font-color);
+          font-size: 75%;
+          font-weight: bold;
+          text-transform: lowercase;
+          padding-left: $base-spacing/3;
+        }
+        margin-top: $base-spacing/3;
+        margin-left: $base-spacing/2;
+        text-transform: uppercase;
+      }
+      &.menu {
+        text-transform: uppercase;
+        i {
+          @extend .fa-navicon;
+        }
+      }
+      &.search {
+        margin-top: $base-spacing/3;
+        i {
+          @extend .fa-search;
+        }
+      }
+      &.settings {
+        margin-top: $base-spacing/3;
+        i {
+          @extend .fa-ellipsis-v;
+        }
+      }
+      i {
+        &.icon {
+          @extend .fa;
+          @extend .fa-fw;
+        }
+      }
+    }
+  }
+}
