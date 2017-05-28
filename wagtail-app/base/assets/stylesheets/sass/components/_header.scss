@@ -1,0 +1,17 @@
+header {
+  border-bottom:thin solid $base-border-color;
+  box-shadow: 0px 2px 2px transparentize($base-border-color, 0.5);
+  left: 0px;
+  min-height: $base-line-height * 3;
+  position: fixed;
+  top: 0;
+  width:100%;
+  z-index: 9999;
+  nav {
+    display: flex;
+
+    a {
+
+    }
+  }
+}

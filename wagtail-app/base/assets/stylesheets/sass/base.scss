@@ -1,0 +1,15 @@
+@import "normalize";
+@import "bourbon";
+@import "font-awesome";
+@import "base/base";
+@import "components/components";
+
+body {
+  background-color: $secondary-background-color;
+  -webkit-font-kerning: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-top: $base-spacing * 3;
+  main {
+    margin: 0 $base-spacing;
+  }
+}
