@@ -1,5 +1,5 @@
 var gulp = require('gulp');
 
-gulp.task('default', function(cb){
-  cb();
+gulp.task('default', ['fonts','stylesheets','server'], function(done){
+  done();
 })
