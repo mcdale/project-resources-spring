@@ -1,8 +1,7 @@
 /.idea
 /app/settings/local.py
-/static
+/app/static
 /media
 /node_modules
 *.pyc
 db.sqlite3
-/app/static
