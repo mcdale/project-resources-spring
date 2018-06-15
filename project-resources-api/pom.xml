@@ -1,0 +1,13 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>project-resources</groupId>
+  <artifactId>project-resources-services</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <modules>
+      <module>project-resources-api-server</module>
+      <module>project-resources-core-api</module>
+      <module>project-resources-core</module>
+  </modules>
+
+</project>
