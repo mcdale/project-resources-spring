@@ -1,0 +1,6 @@
+com/example/core/commands/DeleteRisk.class
+com/example/core/Identifiable.class
+com/example/core/events/RiskDeleted.class
+com/example/core/utils/IdGenerator.class
+com/example/core/commands/CreateRisk.class
+com/example/core/events/RiskCreated.class

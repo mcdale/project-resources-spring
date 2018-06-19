@@ -1,0 +1,6 @@
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-resources-core-api/src/main/java/com/example/core/events/RiskCreated.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-resources-core-api/src/main/java/com/example/core/Identifiable.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-resources-core-api/src/main/java/com/example/core/commands/CreateRisk.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-resources-core-api/src/main/java/com/example/core/utils/IdGenerator.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-resources-core-api/src/main/java/com/example/core/commands/DeleteRisk.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-resources-core-api/src/main/java/com/example/core/events/RiskDeleted.java

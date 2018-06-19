@@ -1,0 +1,4 @@
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-risk-management/project-risk-management-core-api/src/main/java/com/example/project/risk/domain/api/RiskDeleted.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-risk-management/project-risk-management-core-api/src/main/java/com/example/project/risk/domain/commands/DeleteRisk.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-risk-management/project-risk-management-core-api/src/main/java/com/example/project/risk/domain/commands/CreateRisk.java
+/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-risk-management/project-risk-management-core-api/src/main/java/com/example/project/risk/domain/api/RiskCreated.java

@@ -1,13 +1,30 @@
-<project>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>project-resources</groupId>
-  <artifactId>project-resources-services</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-
-  <modules>
-      <module>project-resources-api-server</module>
-      <module>project-resources-core-api</module>
-      <module>project-resources-core</module>
-  </modules>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>project-resources</groupId>
+	<artifactId>project-resources-services</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.13.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<axon.version>3.2.1</axon.version>
+		<java.version>1.8</java.version>
+		<katharsis.version>3.0.2</katharsis.version>
+	</properties>
+	<modules>
+		<module>project-resources-api-server</module>
+		<module>project-resources-core-api</module>
+		<module>project-resources-core</module>
+		<module>project-risk-api</module>
+	</modules>
 
 </project>

@@ -1,0 +1,4 @@
+com/example/project/risk/domain/api/RiskCreated.class
+com/example/project/risk/domain/commands/DeleteRisk.class
+com/example/project/risk/domain/commands/CreateRisk.class
+com/example/project/risk/domain/api/RiskDeleted.class
