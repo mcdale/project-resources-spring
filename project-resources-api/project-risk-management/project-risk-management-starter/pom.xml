@@ -44,6 +44,16 @@
 			<artifactId>project-risk-management-data-jpa</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>io.katharsis</groupId>
+			<artifactId>katharsis-spring</artifactId>
+			<version>${katharsis.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>project-resources</groupId>
+			<artifactId>project-risk-management-resources</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 </project>

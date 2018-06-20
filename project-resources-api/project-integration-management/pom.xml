@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>project-integration-management</artifactId>
+	<packaging>pom</packaging>
+
+	<name>${project.artifactId}</name>
+	<description></description>
+
+	<parent>
+		<groupId>project-resources</groupId>
+		<artifactId>project-resources-api</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath >..</relativePath> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<axon.version>3.2.1</axon.version>
+		<katharsis.version>3.0.2</katharsis.version>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>1.5.14.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+
+	<modules>
+		<module>project-integration-management-server</module>
+		<module>project-integration-management-starter</module>
+		<module>project-integration-management-data-jpa</module>
+		<module>project-integration-management-core-api</module>
+		<module>project-integration-management-resources</module>
+	</modules>
+</project>

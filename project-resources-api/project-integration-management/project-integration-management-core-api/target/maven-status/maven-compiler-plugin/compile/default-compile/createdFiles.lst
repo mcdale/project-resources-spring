@@ -1,0 +1,4 @@
+com/example/project/integration/domain/commands/CreateProject.class
+com/example/project/integration/domain/api/ProjectDeleted.class
+com/example/project/integration/domain/commands/DeleteProject.class
+com/example/project/integration/domain/api/ProjectCreated.class

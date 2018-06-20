@@ -1,16 +1,13 @@
 package com.example.project.risk.starter;
 
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
-@ComponentScan({"org.axonframework",
-	"com.example.project.risk.domain",
-	"com.example.project.risk.data.repository", 
-	"com.example.project.risk.data.model",
-	"com.example.risk.resource",
-	"com.example.risk.resource.repository",
-	"com.example.risk.resource.repository.impl"})
+import io.katharsis.spring.boot.v3.KatharsisConfigV3;
+
+
 @Configuration
+@Import({KatharsisConfigV3.class})
 public class RiskManagementAutoConfiguration {
 
 }

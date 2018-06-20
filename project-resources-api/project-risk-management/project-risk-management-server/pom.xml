@@ -29,11 +29,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>project-resources</groupId>
-			<artifactId>project-risk-management-starter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 		</dependency>
@@ -53,11 +48,17 @@
 			<version>${katharsis.version}</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+
 		<dependency>
-			<groupId>org.modelmapper</groupId>
-			<artifactId>modelmapper</artifactId>
-			<version>0.7.5</version>
+			<groupId>project-resources</groupId>
+			<artifactId>project-integration-management-starter</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>project-resources</groupId>
+			<artifactId>project-risk-management-starter</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>
