@@ -1,0 +1,8 @@
+katharsis:
+  domainName: http://localhost:8080
+  resourcePackage: com.example.project.risk.resource.repository
+  pathPrefix: /api
+  default-page-limit: 20
+  jpa:
+    enabled: false
+  
