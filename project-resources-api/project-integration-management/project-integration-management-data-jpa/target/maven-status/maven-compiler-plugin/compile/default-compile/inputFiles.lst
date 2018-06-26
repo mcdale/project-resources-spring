@@ -1,3 +1,3 @@
-/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-integration-management/project-integration-management-data-jpa/src/main/java/com/example/project/integration/data/repository/ProjectEntityRepository.java
-/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-integration-management/project-integration-management-data-jpa/src/main/java/com/example/project/integration/data/model/ProjectEntity.java
-/home/marc/Projects/project-resources.co.uk/project-resources/project-resources-api/project-integration-management/project-integration-management-data-jpa/src/main/java/com/example/project/integration/data/model/ProjectEventHandler.java
+/Users/marc/Developer/project-resources/project-resources-api/project-integration-management/project-integration-management-data-jpa/src/main/java/com/example/project/integration/data/model/ProjectEventHandler.java
+/Users/marc/Developer/project-resources/project-resources-api/project-integration-management/project-integration-management-data-jpa/src/main/java/com/example/project/integration/data/repository/ProjectEntityRepository.java
+/Users/marc/Developer/project-resources/project-resources-api/project-integration-management/project-integration-management-data-jpa/src/main/java/com/example/project/integration/data/model/ProjectEntity.java
